@@ -1,0 +1,35 @@
+/* Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+div {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Flexbox */
+img {
+    flex: 1 1 0;
+    width: 200px;
+    height: 200px;
+}
+.block-hori {
+    display: flex;
+    justify-content: center;
+}
+.block-col {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-card {
+    padding: 20px;
+    margin: 20px;
+}
+.block-hori .score-board {
+    justify-content:space-between;
+}

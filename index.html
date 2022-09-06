@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <title>Rock Paper Scissors vs. AI</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors!</h1>
+    <div class="block-hori score-board">
+        <div class="block-col score-card">
+            <p>User Score</p>
+            <p id="currentUserScore">#</p>
+        </div>
+        <div class="block-col score-card">
+            <p>AI Score</p>
+            <p id="currentAiScore">#</p>
+        </div>
+    </div>
+    <div class="block-col">
+        <p><strong>Instructions</strong></p>
+        <p>INSTRUCTIONS FOR THE SITE GOES HERE</p>
+    </div>
+    <div class="block-col">
+        <p><strong>Your Pick</strong></p>
+        <div class="block-hori">
+            <img src="./rock.jpeg" alt="Picture of rock" id="userRock">
+            <img src="./paper.jpeg" alt="Picture of paper" id="userPaper">
+            <img src="./scissors.jpeg" alt="Picture of scissors" id="userScissors">
+        </div>
+    </div>
+    <div class="block-col">
+        <p>
+            The Battle Field:
+        </p>
+    </div>
+    <div class="block-hori">
+        <img src="./someimg.jpg" alt="User Pick" id="userBattlePick">
+        <img src="./someimg.jpg" alt="Win indicator" id="battleResult">
+        <img src="./someimg.jpg" alt="AI Pick" id="aiBattlePick">
+    </div>
+    <div class="container">
+    </div>
+    <button id="resetButton">Reset</button>
+</body>
+</html>
